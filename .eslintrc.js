@@ -6,6 +6,8 @@ module.exports = {
   ],
 
   rules: {
+    'max-lines': 'off',
+
     'import/no-commonjs': 'off',
 
     'import/unambiguous': 'off',
