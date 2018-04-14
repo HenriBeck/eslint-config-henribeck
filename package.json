@@ -1,0 +1,48 @@
+{
+  "name": "eslint-config-henribeck",
+  "version": "4.19.0",
+  "description": "ESLint config",
+  "main": "index.js",
+  "repository": "https://github.com/HenriBeck/eslint-config-henribeck.git",
+  "author": "Henri Beck",
+  "license": "MIT",
+  "files": [
+    "lib/",
+    "all.js",
+    "client.js",
+    "flow.js",
+    "index.js",
+    "react.js",
+    "server.js"
+  ],
+  "scripts": {
+    "lint": "eslint lib/",
+    "find-unused-rules": "eslint-find-rules test-config.js -u",
+    "find-rules": "eslint-index test-config.js --format table"
+  },
+  "dependencies": {
+    "babel-eslint": "8.2.2",
+    "eslint-import-resolver-node": "0.3.2",
+    "eslint-plugin-ava": "4.5.1",
+    "eslint-plugin-compat": "2.2.0",
+    "eslint-plugin-eslint-comments": "2.0.2",
+    "eslint-plugin-filenames": "1.2.0",
+    "eslint-plugin-flowtype": "2.46.1",
+    "eslint-plugin-fp": "2.3.0",
+    "eslint-plugin-import": "2.10.0",
+    "eslint-plugin-json": "1.2.0",
+    "eslint-plugin-markdown": "1.0.0-beta.6",
+    "eslint-plugin-promise": "3.7.0",
+    "eslint-plugin-react": "7.7.0",
+    "eslint-plugin-unicorn": "4.0.2"
+  },
+  "peerDependencies": {
+    "eslint": "4.19.x"
+  },
+  "devDependencies": {
+    "ava": "0.25.0",
+    "eslint": "4.19.1",
+    "eslint-find-rules": "3.2.2",
+    "eslint-index": "1.4.0"
+  }
+}
