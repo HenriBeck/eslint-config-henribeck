@@ -15,10 +15,10 @@ jobs:
           command: yarn global add greenkeeper-lockfile@1
       - run:
           name: Update lockfile
-          command: greenkeeper-lockfile-update
+          command: ./node_modules/.bin/greenkeeper-lockfile-update
       - run:
           name: Upload lockfile
-          command: greenkeeper-lockfile-upload
+          command: ./node_modules/.bin/greenkeeper-lockfile-upload
 
   lint:
     working_directory: ~/eslint-config-henribeck
