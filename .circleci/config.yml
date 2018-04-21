@@ -50,7 +50,8 @@ workflows:
   version: 2
 
   greenkeeper:
-    jobs: update-lockfile
+    jobs:
+      - update-lockfile
 
   test:
     jobs:
