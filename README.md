@@ -1,6 +1,6 @@
 # eslint-config-henribeck
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/HenriBeck/eslint-config-henribeck.svg)](https://greenkeeper.io/)
+[![npm](https://img.shields.io/npm/v/eslint-config-henribeck.svg)](https://www.npmjs.com/package/eslint-config-henribeck) ![Maintenance](https://img.shields.io/maintenance/yes/2018.svg) ![npm](https://img.shields.io/npm/l/eslint-config-henribeck.svg) ![David](https://img.shields.io/david/HenriBeck/eslint-config-henribeck.svg) [![CircleCI](https://circleci.com/gh/HenriBeck/eslint-config-henribeck.svg?style=svg)](https://circleci.com/gh/HenriBeck/eslint-config-henribeck) ![Greenkeeper badge](https://badges.greenkeeper.io/HenriBeck/eslint-config-henribeck.svg)
 
 Eslint config for my personal projects.
 
