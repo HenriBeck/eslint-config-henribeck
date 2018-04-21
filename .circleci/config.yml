@@ -1,8 +1,27 @@
 version: 2
 
 jobs:
+  update-lockfile:
+    working_directory: ~/eslint-config-henribeck
+    docker:
+      - image: circleci/node:8
+    steps:
+      - checkout
+      - run:
+          name: Install Packages
+          command: yarn install
+      - run:
+          name: Install greenkeeper-lockfile package
+          command: yarn global add greenkeeper-lockfile@1
+      - run:
+          name: Update lockfile
+          command: greenkeeper-lockfile-update
+      - run:
+          name: Upload lockfile
+          command: greenkeeper-lockfile-upload
+
   lint:
-    working_directory: ~/materialize-react
+    working_directory: ~/eslint-config-henribeck
     docker:
       - image: circleci/node:8
     steps:
@@ -15,7 +34,7 @@ jobs:
           command: yarn run lint
 
   find-unused-rules:
-    working_directory: ~/materialize-react
+    working_directory: ~/eslint-config-henribeck
     docker:
       - image: circleci/node:8
     steps:
@@ -29,6 +48,9 @@ jobs:
 
 workflows:
   version: 2
+
+  greenkeeper:
+    jobs: update-lockfile
 
   test:
     jobs:
