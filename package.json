@@ -43,6 +43,7 @@
     "ava": "0.25.0",
     "eslint": "4.19.1",
     "eslint-find-rules": "3.2.3",
-    "eslint-index": "1.4.0"
+    "eslint-index": "1.4.0",
+    "greenkeeper-lockfile": "1.14.0"
   }
 }

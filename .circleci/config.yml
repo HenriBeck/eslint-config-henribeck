@@ -11,9 +11,6 @@ jobs:
           name: Install Packages
           command: yarn install
       - run:
-          name: Install greenkeeper-lockfile package
-          command: yarn global add greenkeeper-lockfile@1
-      - run:
           name: Update lockfile
           command: ./node_modules/.bin/greenkeeper-lockfile-update
       - run:
