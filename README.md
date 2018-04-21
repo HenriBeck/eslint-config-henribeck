@@ -1,5 +1,7 @@
 # eslint-config-henribeck
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/HenriBeck/eslint-config-henribeck.svg)](https://greenkeeper.io/)
+
 Eslint config for my personal projects.
 
 ### Installation
