@@ -1452,13 +1452,6 @@ eslint-plugin-filenames@1.2.0:
     lodash.snakecase "4.1.1"
     lodash.upperfirst "4.3.1"
 
-eslint-plugin-flowtype-errors@3.5.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-flowtype-errors/-/eslint-plugin-flowtype-errors-3.5.1.tgz#ea69673407d51e6e9a9308cf56041bcd92d6756a"
-  dependencies:
-    babel-runtime "^6.26.0"
-    slash "^1.0.0"
-
 eslint-plugin-flowtype@2.47.1:
   version "2.47.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-flowtype/-/eslint-plugin-flowtype-2.47.1.tgz#1be0d6b855dbf8f253fcf49ea3d44bf6c23ff984"
