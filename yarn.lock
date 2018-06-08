@@ -1443,9 +1443,9 @@ eslint-plugin-eslint-comments@2.0.2:
     escape-string-regexp "^1.0.5"
     ignore "^3.3.7"
 
-eslint-plugin-filenames@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-filenames/-/eslint-plugin-filenames-1.2.0.tgz#aee9c1c90189c95d2e49902c160eceefecd99f53"
+eslint-plugin-filenames@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-filenames/-/eslint-plugin-filenames-1.3.0.tgz#126b26bc87fc7c50cb38713097feb372f76aa103"
   dependencies:
     lodash.camelcase "4.3.0"
     lodash.kebabcase "4.1.1"
