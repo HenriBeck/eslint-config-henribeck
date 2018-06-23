@@ -37,7 +37,7 @@
     "eslint-plugin-unicorn": "4.0.3"
   },
   "peerDependencies": {
-    "eslint": "4.19.x || 5.0.x"
+    "eslint": "5.0.x"
   },
   "devDependencies": {
     "eslint": "5.0.0",
