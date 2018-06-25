@@ -608,9 +608,9 @@ eslint-ast-utils@^1.0.0:
     lodash.get "^4.4.2"
     lodash.zip "^4.2.0"
 
-eslint-find-rules@3.2.3:
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/eslint-find-rules/-/eslint-find-rules-3.2.3.tgz#da6bcc24fce67e2ae0fd0ff3d452bf0ffd8eddf4"
+eslint-find-rules@3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/eslint-find-rules/-/eslint-find-rules-3.3.1.tgz#46a86c2fc9e9be2b33235234e1820e1f045793a9"
   dependencies:
     cliui "^3.2.0"
     eslint-rule-documentation "^1.0.0"
