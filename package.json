@@ -21,7 +21,7 @@
     "find-rules": "eslint-index test-config.js --format table"
   },
   "dependencies": {
-    "babel-eslint": "8.2.5",
+    "babel-eslint": "8.2.6",
     "eslint-import-resolver-node": "0.3.2",
     "eslint-plugin-ava": "4.5.1",
     "eslint-plugin-eslint-comments": "3.0.1",
