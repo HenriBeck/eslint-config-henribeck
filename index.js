@@ -39,4 +39,26 @@ module.exports = {
   ],
 
   rules: { strict: 'off' },
+
+  overrides: [{
+    files: ['*.config.js'],
+    env: { node: true },
+    rules: {
+      'import/no-commonjs': 'off',
+      'import/unambiguous': 'off',
+      'filenames/match-exported': 'off',
+    },
+  }, {
+    files: [
+      'scripts/*.js',
+      'scripts/**/*.js',
+    ],
+    env: { node: true },
+  }, {
+    files: ['scripts/*.js'],
+    rules: {
+      'no-process-exit': 'off',
+      'unicorn/no-process-exit': 'off',
+    },
+  }],
 };
