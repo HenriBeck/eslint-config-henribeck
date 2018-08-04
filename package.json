@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-henribeck",
-  "version": "5.2.3",
+  "version": "5.3.0",
   "description": "ESLint config",
   "main": "index.js",
   "repository": "https://github.com/HenriBeck/eslint-config-henribeck.git",
@@ -18,7 +18,8 @@
   "scripts": {
     "lint": "eslint lib/",
     "find-unused-rules": "eslint-find-rules test-config.js -u",
-    "find-rules": "eslint-index test-config.js --format table"
+    "find-rules": "eslint-index test-config.js --format table",
+    "prepare": "yarn lint && yarn find-unused-rules"
   },
   "dependencies": {
     "babel-eslint": "8.2.6",
