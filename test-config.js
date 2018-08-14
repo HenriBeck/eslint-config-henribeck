@@ -1,3 +1,1 @@
-module.exports = {
-  extends: ['./all.js'],
-};
+module.exports = { extends: ['./all.js'] };

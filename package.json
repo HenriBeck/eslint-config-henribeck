@@ -16,7 +16,7 @@
     "server.js"
   ],
   "scripts": {
-    "lint": "eslint lib/",
+    "lint": "eslint .",
     "find-unused-rules": "eslint-find-rules test-config.js -u",
     "find-rules": "eslint-index test-config.js --format table",
     "prepare": "yarn lint && yarn find-unused-rules"

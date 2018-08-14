@@ -1,15 +1,12 @@
 module.exports = {
   extends: [
-    './index.js',
-    './client.js',
-    './server.js',
+    './all.js',
   ],
 
   rules: {
     'max-lines': 'off',
-
     'import/no-commonjs': 'off',
-
     'import/unambiguous': 'off',
+    'flowtype/require-valid-file-annotation': 'off',
   }
 };
