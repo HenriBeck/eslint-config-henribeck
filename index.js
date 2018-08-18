@@ -4,7 +4,6 @@ module.exports = {
   env: {
     es6: true,
     'shared-node-browser': true,
-    commonjs: true,
   },
 
   parserOptions: {
@@ -18,7 +17,6 @@ module.exports = {
   },
 
   extends: [
-
     // Core ESLint Rules
     './lib/core/errors.js',
     './lib/core/es6.js',
@@ -42,7 +40,10 @@ module.exports = {
 
   overrides: [{
     files: ['*.config.js'],
-    env: { node: true },
+    env: {
+      node: true,
+      commonjs: true,
+    },
     rules: {
       'import/no-commonjs': 'off',
       'import/unambiguous': 'off',
