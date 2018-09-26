@@ -22,7 +22,7 @@
     "prepare": "yarn lint && yarn find-unused-rules"
   },
   "dependencies": {
-    "babel-eslint": "9.0.0",
+    "babel-eslint": "10.0.0",
     "eslint-import-resolver-node": "0.3.2",
     "eslint-plugin-ava": "5.1.1",
     "eslint-plugin-eslint-comments": "3.0.1",
