@@ -1,5 +1,8 @@
 module.exports = {
-  extends: ['./lib/react.js'],
+  extends: [
+    './lib/react.js',
+    './lib/react-hooks.js',
+  ],
 
   settings: {
     react: {
