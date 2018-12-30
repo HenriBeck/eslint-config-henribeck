@@ -13,7 +13,8 @@
     "flow.js",
     "index.js",
     "react.js",
-    "server.js"
+    "server.js",
+    "typescript.js"
   ],
   "scripts": {
     "lint": "eslint .",
