@@ -1,1 +1,7 @@
-module.exports = { extends: ['./all.js'] };
+module.exports = {
+  extends: [
+    './all.js',
+    './flow.js',
+    './typescript.js',
+  ],
+};

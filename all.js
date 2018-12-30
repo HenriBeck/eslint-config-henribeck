@@ -4,6 +4,5 @@ module.exports = {
     './client.js',
     './server.js',
     './react.js',
-    './flow.js',
   ],
 };
