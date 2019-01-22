@@ -37,7 +37,7 @@
     "eslint-plugin-react": "7.12.4",
     "eslint-plugin-react-hooks": "0.0.0",
     "eslint-plugin-typescript": "1.0.0-rc.3",
-    "eslint-plugin-unicorn": "7.0.0"
+    "eslint-plugin-unicorn": "7.1.0"
   },
   "peerDependencies": {
     "eslint": "5.12.x"
