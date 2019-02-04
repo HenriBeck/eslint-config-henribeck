@@ -1,5 +1,5 @@
 module.exports = {
-  parser: 'eslint-plugin-typescript/parser',
+  parser: '@typescript-eslint/parser',
 
   extends: ['./lib/typescript.js'],
 
