@@ -19,10 +19,10 @@
   "scripts": {
     "lint": "eslint .",
     "find-unused-rules": "eslint-find-rules test-config.js -u",
-    "find-rules": "eslint-index test-config.js --format table",
-    "prepare": "yarn lint && yarn find-unused-rules"
+    "find-rules": "eslint-index test-config.js --format table"
   },
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "1.2.0",
     "babel-eslint": "10.0.1",
     "eslint-import-resolver-node": "0.3.2",
     "eslint-plugin-ava": "5.1.1",
@@ -36,7 +36,6 @@
     "eslint-plugin-promise": "4.0.1",
     "eslint-plugin-react": "7.12.4",
     "eslint-plugin-react-hooks": "0.0.0",
-    "eslint-plugin-typescript": "1.0.0-rc.3",
     "eslint-plugin-unicorn": "7.1.0"
   },
   "peerDependencies": {
@@ -46,6 +45,6 @@
     "eslint": "5.13.0",
     "eslint-find-rules": "3.3.1",
     "eslint-index": "1.5.0",
-    "typescript": "3.3.1"
+    "typescript": "3.2.1"
   }
 }
