@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-henribeck",
-  "version": "5.12.0",
+  "version": "5.13.0",
   "description": "ESLint config",
   "main": "index.js",
   "repository": "https://github.com/HenriBeck/eslint-config-henribeck.git",
