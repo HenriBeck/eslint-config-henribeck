@@ -39,10 +39,10 @@
     "eslint-plugin-unicorn": "8.0.1"
   },
   "peerDependencies": {
-    "eslint": "5.15.x"
+    "eslint": "5.16.x"
   },
   "devDependencies": {
-    "eslint": "5.15.2",
+    "eslint": "5.16.0",
     "eslint-find-rules": "3.3.1",
     "eslint-index": "1.5.0",
     "typescript": "3.3.3333"
